@@ -1,0 +1,15 @@
+Red Wine 1#525#RED
+Red Wine 2#800#RED
+Red Wine 3#1000#RED
+White Wine 1#1100#WHITE
+White Wine 2#1350#WHITE
+White Wine 3#1650#WHITE
+Rose' Wine 1#2100#ROSE'
+Rose' Wine 2#2500#ROSE'
+Rose' Wine 3#3000#ROSE'
+Spumante 1#2500#SPUMANTE
+Spumante 2#3850#SPUMANTE
+Spumante 3#7000#SPUMANTE
+Spumante Rose' 1#5550#ROSE'#SPUMANTE
+Coca Cola#350#ANALCOLIC
+Sparkly Water#300#ANALCOLIC

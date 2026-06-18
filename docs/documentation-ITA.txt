@@ -1,0 +1,11 @@
+# Ricerca i prodotti in base al nome nel catalogo tramite la barra di Ricerca in alto
+
+# Filtra i prodotti del catalogo tramite gli hashtags:
+  - hashtag(filtro) attivo : il bottone e' nero
+  - hashtag(filtro) disattivo : il bottone e' bianco
+
+!!NOTA: La Ricerca e gli hashtags agiscono contemporaneamente sui risultati
+
+# Clicca sul prodotto, seleziona quantita' e stanza di addebito
+
+# Clicca sul pulsante 'ADD' per aggiungere l'ordine alla comanda

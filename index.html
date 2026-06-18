@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: AGPL-3.0-only -->
+<html>
+
+<head>
+  <title>Comande</title>
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/components/keypad.css">
+  <link rel="stylesheet" href="/components/comanda_menu.css">
+</head>
+
+<body>
+  <div id="main-container" class="main-container-style">
+
+    <div class="search-background">
+
+      <div class="lateral-space-search">
+        <div id="checklist_icon_button" class="top_icon_wrapper-style">
+          <img id="checklist_icon" class="top_icon-style" src="/assets/recent_checklist.svg">
+        </div>
+      </div>
+
+      <div class="search-bar">
+        <div class="search-container">
+          <input id="search-input" type="text" class="search-input-style" placeholder="Search...">
+        </div>
+        <button id="del-button" class="del-button-style">DEL</button>
+      </div>
+
+      <div class="lateral-space-search">
+        <div id="shopping_bag_icon_button" class="top_icon_wrapper-style">
+          <img id="shopping_bag_icon" class="top_icon-style" src="/assets/shopping-bag-2-svgrepo-com.svg">
+        </div>
+      </div>
+
+    </div>
+
+    <div id="horizontal_spacer" style="width: 100%; height: 1%;"></div>
+
+    <div id="filter-background" class="filter-background-style"></div>
+
+    <div id="result-container" class="result-container-style"> </div>
+  
+  </div>
+
+  <div id="overlay" class="overlay-style">
+    <div id="order-popup" class="popup-style">
+      <div class="top_order_popup-style">
+        <div id="title_popup" class="title_popup-style"></div>
+        <button id="top_order_x_button" class="top_order_x_button-style">
+          <img id="x_button_order" class="x_button-style" src="./assets/cross-mark-svgrepo-com.svg" alt="icon">
+        </button>
+      </div>
+      <div class="center_order_popup-style">
+        <div class="center_order_div-style">
+          <div class="one_fourth_spacer-style"></div>
+          <div class="one_fourth_spacer-style">
+            <p class="write_popup-style">QUANTITY:</p>
+          </div>
+          <div class="one_fourth_spacer-style">
+            <button id="qty_button_less" class="qty_button-style">-</button>
+            <div id="qty_var" class="qty_var-style"></div>
+            <button id="qty_button_more" class="qty_button-style">+</button>
+          </div>
+          <div class="one_fourth_spacer-style"></div>
+        </div>
+        <div class="center_order_div-style">
+          <div class="one_fourth_spacer-style"></div>
+          <div class="one_fourth_spacer-style">
+            <p class="write_popup-style">ROOM:</p>
+          </div>
+          <div class="one_fourth_spacer-style">
+            <div id="picker" class="picker-style"></div>
+            <div id="locker_div" class="locker-style">
+              <object type="image/svg+xml" data="/assets/lock-alt-svgrepo-com.svg" width="100%"></object>
+            </div>
+          </div>
+          <div class="one_fourth_spacer-style"></div>
+        </div>
+      </div>
+      <div class="bottom_order_popup-style">
+        <div style="width: 20%; height: 100%; display: flex; justify-content: right; align-items: center; font-family: sans-serif; font-weight: bold; font-size: 50px; ">TOT:</div>
+        <div id="tot" class="tot_order_popup-style"></div>
+        <div style="width: 50%; height: 100%; display: flex; justify-content: center; align-items: center">
+          <button id="bottom_order_add_button" class="bottom_order_send_button-style">ADD</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="overlay_3" class="overlay_3-style"></div>
+</body>
+<script type="module" src="/js/loader.js"></script>
+<script type="module" src="/js/script.js" ></script>
+</html>
