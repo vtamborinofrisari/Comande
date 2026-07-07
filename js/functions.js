@@ -688,7 +688,7 @@ export function parse(txt) {
     const name = split_line[0].slice(0,30); // limit name of product at 30 characters of length
     const price = split_line[1];
     split_line.splice(0, 2);
-    const hashtags = split_line.map(str => str.toUpperCase());  // hashtags are case insensitive
+    const hashtags = split_line.map(str => str.toUpperCase().slice(0,12));  // hashtags are case insensitive
    
     items.push(new StringSetElement(name, price, hashtags));
 
